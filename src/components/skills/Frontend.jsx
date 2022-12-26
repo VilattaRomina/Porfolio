@@ -3,7 +3,7 @@ import React from 'react'
 const Frontend = () => {
   return (
     <div className='skills__content'>
-        <h3 className='skills__title'>Frontend</h3>
+        <h3 className='skills__title'></h3>
 
         <div className='skills__box'>
             <div className='skills__group'>
@@ -33,6 +33,27 @@ const Frontend = () => {
                 <i class='bx bx-badge-check'></i>
                     <div>
                         <h3 className='skills__name'>React</h3>
+                        
+                    </div>
+                </div>
+                <div className='skills__data'>
+                <i class='bx bx-badge-check'></i>
+                    <div>
+                        <h3 className='skills__name'>Redux</h3>
+                        
+                    </div>
+                </div>
+                <div className='skills__data'>
+                <i class='bx bx-badge-check'></i>
+                    <div>
+                        <h3 className='skills__name'>TypeScript</h3>
+                        
+                    </div>
+                </div>
+                <div className='skills__data'>
+                <i class='bx bx-badge-check'></i>
+                    <div>
+                        <h3 className='skills__name'>Java</h3>
                         
                     </div>
                 </div>

@@ -15,7 +15,7 @@ const About = () => {
             <p className='about__description'>
             
 
- Me gusta estar en constante aprendizaje, por lo cual actualmente me encuentro cursando la especialización de Frontend y por otra parte estoy estudiando y perfeccionando mi inglés.
+ Me gusta estar en constante aprendizaje, por lo cual actualmente me encuentro cursando la especialización de Frontend.
 <br/>
 <br/>
 Soy persona muy responsable y comprometida. Poseo gran capacidad de comunicación e iniciativa, lo cual me permite participar fácilmente en dinámicas que requieren trabajo en equipo.
