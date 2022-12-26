@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Porfolio/static/css/main.72334ab5.css",
+    "main.js": "/Porfolio/static/js/main.3ce6cb73.js",
+    "static/media/work4.jpg": "/Porfolio/static/media/work4.ee10504e2cd404d7eb3b.jpg",
+    "static/media/perfil.png": "/Porfolio/static/media/perfil.128228eb0dfe3b8a002f.png",
+    "static/media/work5.jpg": "/Porfolio/static/media/work5.b776e28ef55d10b7d63c.jpg",
+    "static/media/work1.jpg": "/Porfolio/static/media/work1.ab1157c906e1f7dcc0a3.jpg",
+    "static/media/RominaVilattaMontenegro-CV.pdf": "/Porfolio/static/media/RominaVilattaMontenegro-CV.ba3bdec22679cbced201.pdf",
+    "static/media/work2.jpg": "/Porfolio/static/media/work2.7b67e6b4491382d13ea3.jpg",
+    "static/media/work3.jpg": "/Porfolio/static/media/work3.1c04c763f33cb880192e.jpg",
+    "index.html": "/Porfolio/index.html",
+    "main.72334ab5.css.map": "/Porfolio/static/css/main.72334ab5.css.map",
+    "main.3ce6cb73.js.map": "/Porfolio/static/js/main.3ce6cb73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72334ab5.css",
+    "static/js/main.3ce6cb73.js"
+  ]
+}
