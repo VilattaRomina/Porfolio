@@ -24,7 +24,7 @@ const Contact = () => {
 
     <div className='contact__container container grid'>
       <div className='contact__content'>
-        <h3 className='contact__title'>Hablemos</h3>
+        <h3 className='contact__title'></h3>
 
         <div className='contact__info'>
             <div className='contact__card'>
@@ -50,7 +50,7 @@ const Contact = () => {
         </div>
       </div> 
       <div className='contact__content'>
-        <h3 className='contact__title'>Escribime</h3>
+        <h3 className='contact__title'></h3>
 
         <form ref={form} onSubmit={sendEmail} className='contact__form'>
         <div className='contact__form-div'>
