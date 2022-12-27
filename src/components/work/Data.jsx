@@ -11,14 +11,14 @@ export const proyectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'Web design',
+        title: 'Calculadora',
         description: 'web design',
         link: "https://calculadora-rvm.netlify.app/"
     },
     {
         id: 2,
         image: Work2,
-        title: 'Web design',
+        title: 'Lista de tareas',
         description: 'web design',
         link:'https://listareas-app.netlify.app/'
 
@@ -26,14 +26,14 @@ export const proyectsData = [
     {
         id: 3,
         image: Work3,
-        title: 'Web design',
+        title: 'Buscador de usuarios GitHub',
         description: 'web design',
         link:'https://vilattaromina.github.io/github-user-search/'
     },
     {
         id: 4,
         image: Work4,
-        title: 'Web design',
+        title: 'E-commerce',
         description: 'web design',
         link:'https://vilattaromina.github.io/evaluacion-fe3/'
     },
