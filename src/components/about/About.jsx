@@ -1,12 +1,17 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './About.css'
 import CV from '../../assets/RominaVilattaMontenegro-CV.pdf'
+import { ThemeContext } from '../../context';
 
 
 const About = () => {
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
-    <section className='about section' id='about'>
-      <h2 className='section__title'>Sobre mi</h2>
+    <section className='about section' id='about' >
+      <h2 className='section__title' style={{color: darkMode && '#fff'}}>Sobre mi</h2>
 
       <div className='about__container container grid'>
 
@@ -15,10 +20,7 @@ const About = () => {
             <p className='about__description'>
             
 
- Me gusta estar en constante aprendizaje, por lo cual actualmente me encuentro cursando la especialización de Frontend.
-<br/>
-<br/>
-Soy persona muy responsable y comprometida. Poseo gran capacidad de comunicación e iniciativa, lo cual me permite participar fácilmente en dinámicas que requieren trabajo en equipo.
+ Me gusta estar en constante aprendizaje, por lo cual actualmente me encuentro cursando la carrera <b>CERTIFIED TECH DEVELOPER</b>.
 <br/>
 <br/>
  Adquirí conocimientos de HTML, CSS, JavaScript, POO, React, MySQL Workbench, Java, Git, GITHub, GITLab y Scrum.

@@ -28,11 +28,29 @@
 }
 
 .home__title {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: var(--mb-0-25);
+    /* white-space: nowrap;
+    border-right: 4px solid var(--first-color);
+    width:12ch;
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow: hidden; */
+   
+}
+
+
+.home__hand{
+    width: 38px;
+    height: 38px;
+    margin-left: 0.4rem;
+}
+
+.home__subtitle {
+    font-size: 1.5rem;
     margin-bottom: var(--mb-0-25);
     white-space: nowrap;
     border-right: 4px solid var(--first-color);
-    width:12ch;
+    width:20ch;
     animation: typing 2s steps(12), blink .5s infinite step-end alternate;
     overflow: hidden;
    
@@ -46,20 +64,6 @@
     50% { border-color: transparent}
 }
 
-.home__hand{
-    width: 38px;
-    height: 38px;
-    margin-left: 0.4rem;
-}
-
-.home__subtitle {
-    position: relative;
-    font-size: var(--h3-font-size);
-    padding-right: 2rem;
-    margin-bottom: var(--mb-1);
-    color: var( --text-color);
-}
-
 .home__description{
     max-width: 400px;
     margin-bottom: 3rem;
@@ -67,7 +71,8 @@
 
 .home__img{
   order:1 ;
-  width: 260px;
+  /* width: 260px; */
+  width: 290px;
   justify-self: center;
   
 }
