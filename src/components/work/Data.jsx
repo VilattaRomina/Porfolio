@@ -3,6 +3,7 @@ import Work2 from '../../assets/work2.jpg'
 import Work3 from '../../assets/work3.jpg'
 import Work4 from '../../assets/work4.jpg'
 import Work5 from '../../assets/work5.jpg'
+import Work6 from '../../assets/work6.jpg'
 
 
 
@@ -44,12 +45,13 @@ export const proyectsData = [
         description: 'web design',
         link:'https://vilattaromina.github.io/FE1-ExamenFinal/'
     },
-    // {
-    //     id: 6,
-    //     image: Work3,
-    //     title: 'Web design',
-    //     description: 'web design'
-    // },
+    {
+        id: 6,
+        image: Work6,
+        title: 'Web - Reserva de alojamiento',
+        description: 'Proyecto Integrador',
+        link:'https://drive.google.com/file/d/12Q6H33llzrObxqYqRmMsmhSfVSiIS50_/view?usp=sharing'
+    },
     
     
 ]
