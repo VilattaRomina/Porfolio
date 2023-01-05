@@ -12,7 +12,7 @@ const Data = () => {
             <p className='home__description'> Responsable, comprometida y con
                 gran capacidad de comunicación e iniciativa. </p>
 
-            <a href='#contact' className='button button--flex'> Contáctame
+            <a href='#contact' className='button button--flex'> Contactame
                 <i class="uil uil-message"></i> </a>
         </div>
 

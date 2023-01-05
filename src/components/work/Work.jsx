@@ -10,7 +10,7 @@ const Work = () => {
 
   return (
     <section className='work section' id='portfolio'>
-        <h2 className='section__title'  style={{color: darkMode && '#fff'}}>Porfolio</h2>
+        <h2 className='section__title'  style={{color: darkMode && '#fff'}}>Portfolio</h2>
         <span className='section__subtitle'>Proyectos recientes</span>
         
         <Works />

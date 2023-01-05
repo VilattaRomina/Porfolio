@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <section className='contact section' id='contact' >
       <h2 className='section__title' style={{ color: darkMode && '#fff' }}>Hablemos</h2>
-      <span className='section__subtitle'>Podes contactarme a traves de</span>
+      <span className='section__subtitle'>Podes contactarme a través de</span>
 
       <div className='contact__container container grid'>
         <div className='contact__content'>
@@ -40,7 +40,7 @@ const Contact = () => {
 
               <a href='' className='contact__button' style={{
                 color: darkMode && '#fff'
-              }}>vilattaromina@gmail.com <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
+              }}>vilattaromina@gmail.com </a>
             </div>
 
             <div className='contact__card' style={{
@@ -81,7 +81,7 @@ const Contact = () => {
                 type='text'
                 name='name'
                 className='contact__form-input'
-                placeholder='Inserte su mensaje'
+                placeholder='Inserta tu nombre'
                 style={{
                   backgroundColor: darkMode ?
                     '#1f1a2e' : "white", color: darkMode && '#fff', border: darkMode && '2px solid #fff'
@@ -97,7 +97,7 @@ const Contact = () => {
                 type='email'
                 name='email'
                 className='contact__form-input'
-                placeholder='Inserte su email'
+                placeholder='Inserta tu email'
                 style={{
                   backgroundColor: darkMode ?
                     '#1f1a2e' : "white", color: darkMode && '#fff', border: darkMode && '2px solid #fff'
@@ -109,7 +109,7 @@ const Contact = () => {
                 backgroundColor: darkMode ?
                   '#1f1a2e' : "white", color: darkMode && '#fff'
               }}>Mensaje</label>
-              <textarea name='message' cols='30' rows='10' className='contact__form-input' placeholder='Escribe tu mensaje' style={{
+              <textarea name='message' cols='30' rows='10' className='contact__form-input' placeholder='Escribí tu mensaje' style={{
                 backgroundColor: darkMode ?
                   '#1f1a2e' : "white", color: darkMode && '#fff', border: darkMode && '2px solid #fff'
               }}></textarea>

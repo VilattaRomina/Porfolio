@@ -21,7 +21,8 @@ const Header = () => {
         <nav className='nav container' >
             <a href='index.html' className='nav__logo'></a>
 
-            <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'} >
+            <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'} style={{backgroundColor: darkMode ? '#1f1a2e' : "white", color: darkMode && "white"
+      }} >
                 <ul className='nav__list grid'>
                     <li className='nav__item'>
                         <a href='#home' 
@@ -66,17 +67,20 @@ const Header = () => {
                         </a>
                     </li>
                     <li className='nav__item'>
-                        <a href='#theme' className= 'nav__link' onClick={handleClick} style={{color: darkMode && '#fff'}}>
+                        <a href='#theme' className= 'nav__link' onClick={handleClick} style={{ color: darkMode && "white"
+      }} >
                             {theme.state.darkMode ? <i class="uil uil-sun"></i> :  <i class="uil uil-moon"></i>} 
                         </a>
                     </li>
                 </ul>
 
-                <i class='uil uil-times nav__close' onClick={()=> setToggle(!Toggle)}></i>
+                <i class='uil uil-times nav__close' style={{color: darkMode && "white"
+      }} onClick={()=> setToggle(!Toggle)}></i>
             </div>
 
-            <div className='nav__toggle' onClick={()=> setToggle(!Toggle)}>
-            <i class="uil uil-apps"></i>
+            <div className='nav__toggle'  onClick={()=> setToggle(!Toggle)}>
+            <i class="uil uil-apps" style={{ color: darkMode && "white"
+      }} ></i>
             </div>
         </nav>
       </header>
