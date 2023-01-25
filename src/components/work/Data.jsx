@@ -4,6 +4,7 @@ import Work3 from '../../assets/work3.jpg'
 import Work4 from '../../assets/work4.jpg'
 import Work5 from '../../assets/work5.jpg'
 import Work6 from '../../assets/work6.jpg'
+import Work7 from '../../assets/work7.jpg'
 
 
 
@@ -51,6 +52,13 @@ export const proyectsData = [
         title: 'Web - Reserva de alojamiento',
         description: 'Proyecto Integrador',
         link:'https://drive.google.com/file/d/12Q6H33llzrObxqYqRmMsmhSfVSiIS50_/view?usp=sharing'
+    },
+    {
+        id: 7,
+        image: Work7,
+        title: 'Juego - Piedra, papel o tijera',
+        description: 'Juego usuario vs PC',
+        link:'https://vilattaromina.github.io/Piedra-papel-o-tijera/'
     },
     
     
