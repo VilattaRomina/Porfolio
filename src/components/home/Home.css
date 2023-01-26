@@ -138,6 +138,7 @@ color: var(--first-color);
    .home__content{
     grid-template-columns: repeat(2, 260px);
     padding-top: 3.5rem;
+    
    }
 
    .home__img{
@@ -152,6 +153,7 @@ color: var(--first-color);
    .home__data{
     /* grid-column: 1/3; */
     /* padding-left: 5rem; */
+    padding-top: 2rem;
    }
 
    .home__scroll{
@@ -163,6 +165,12 @@ color: var(--first-color);
   
   /* For small devices */
   @media screen and (max-width: 350px) {
+    .home__content{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
     .home__img{
         width: 180px;
         height: 180px;
