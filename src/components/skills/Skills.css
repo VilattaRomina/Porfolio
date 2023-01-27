@@ -47,7 +47,7 @@
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For large devices */
+
 @media screen and (max-width: 992px) {
    .skills__container{
     /* grid-template-columns: max-content; */
@@ -56,7 +56,7 @@
     
   }
   
-  /* For medium devices */
+
   
   @media screen and (max-width: 768px) {
     .skills__container{
@@ -71,7 +71,7 @@
     
   }
   
-  /* For small devices */
+ 
   @media screen and (max-width: 350px) {
 
 

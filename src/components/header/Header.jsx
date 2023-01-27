@@ -4,13 +4,14 @@ import './Header.css';
 
 
 const Header = () => {
-    
+
     /*=========== Toggle Menu =============*/ 
-    const[Toggle, setToggle] = useState(false);
+    const[ToggleNav, setToggleNav] = useState(false);
     const [activeNav, setActiveNav] = useState('#home');
+
+    /*=========== DarkMode =============*/
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
-
     const handleClick = () => {
         theme.dispatch({type: "TOGGLE"})
     }
@@ -20,9 +21,9 @@ const Header = () => {
       '#1f1a2e' : "white", color: darkMode && '#fff'
     }}>
         <nav className='nav container' >
-            <a href='index.html' className='nav__logo'></a>
+            <a href='index.html' className='nav__logo'>Romina</a>
 
-            <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'} style={{backgroundColor: darkMode ? '#1f1a2e' : "white", color: darkMode && "white"
+            <div className={ToggleNav ? 'nav__menu show-menu' : 'nav__menu'} style={{backgroundColor: darkMode ? '#1f1a2e' : "white", color: darkMode && "white"
       }} >
                 <ul className='nav__list grid'>
                     <li className='nav__item'>
@@ -76,10 +77,10 @@ const Header = () => {
                 </ul>
 
                 <i class='uil uil-times nav__close' style={{color: darkMode && "white"
-      }} onClick={()=> setToggle(!Toggle)}></i>
+      }} onClick={()=> setToggleNav(!ToggleNav)}></i>
             </div>
 
-            <div className='nav__toggle'  onClick={()=> setToggle(!Toggle)}>
+            <div className='nav__toggle'  onClick={()=> setToggleNav(!ToggleNav)}>
             <i class="uil uil-apps" style={{ color: darkMode && "white"
       }} ></i>
             </div>

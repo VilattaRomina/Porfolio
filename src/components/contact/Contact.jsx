@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/heading-has-content */
 import React, { useRef, useContext } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css'
@@ -38,7 +39,7 @@ const Contact = () => {
               <i className='uil uil-envelope contact__card-icon'></i>
               <span className='contact__card-data'></span>
 
-              <a href='' className='contact__button' style={{
+              <a href='.' className='contact__button' style={{
                 color: darkMode && '#fff'
               }}>vilattaromina@gmail.com </a>
             </div>
@@ -50,7 +51,7 @@ const Contact = () => {
               <i className='uil uil-linkedin contact__card-icon'></i>
               <span className='contact__card-data'></span>
 
-              <a href='https://www.linkedin.com/in/rominavilattamontenegro/' className='contact__button' style={{
+              <a href='https://www.linkedin.com/in/rominavilattamontenegro/' target="_blank" rel="noreferrer" className='contact__button' style={{
                 color: darkMode && '#fff'
               }}>romina-vilatta-montenegro <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
             </div>
@@ -62,7 +63,7 @@ const Contact = () => {
               <i className='uil uil-github contact__card-icon'></i>
               <span className='contact__card-data'></span>
 
-              <a href='https://github.com/VilattaRomina' className='contact__button' style={{
+              <a href='https://github.com/VilattaRomina' target="_blank" rel="noreferrer"  className='contact__button' style={{
                 color: darkMode && '#fff'
               }}>VilattaRomina <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
             </div>
