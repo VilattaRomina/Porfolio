@@ -7,7 +7,7 @@ const Data = () => {
 
     return (
         <div className='home__data' >
-            <h1 className='home__title' style={{color: darkMode && '#fff'}}> Hola, soy Romi</h1>
+            <h1 className='home__title' style={{color: darkMode && '#fff'}}> Hola, soy Romi!👋</h1>
             <h3 className='home__subtitle' style={{color: darkMode && '#fff'}}> Desarrolladora Frontend</h3>
             <p className='home__description'> Responsable, comprometida y con
                 gran capacidad de comunicación e iniciativa. </p>
