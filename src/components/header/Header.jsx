@@ -29,8 +29,9 @@ const Header = () => {
                     <li className='nav__item'>
                         <a href='#home' 
                         onClick={()=> setActiveNav('#home')}
-                        className={activeNav === '#home' ? 'nav__link active-link' : 'nav__link'} style={{color: darkMode && '#fff'}}>
-                            <i className='uil uil-state nav__icon'></i> Home
+                        className={activeNav === '#home' ? 'nav__link active-link' : 'nav__link'} 
+                        style={{color: darkMode && '#fff'}}>
+                            <i className='uil uil-home nav__icon'></i> Home
                         </a>
                     </li>
 
