@@ -21,7 +21,7 @@ const Header = () => {
       '#1f1a2e' : "white", color: darkMode && '#fff'
     }}>
         <nav className='nav container' >
-            <a href='index.html' className='nav__logo'>Romina</a>
+            <a href='index.html' className='nav__logo'></a>
 
             <div className={ToggleNav ? 'nav__menu show-menu' : 'nav__menu'} style={{backgroundColor: darkMode ? '#1f1a2e' : "white", color: darkMode && "white"
       }} >

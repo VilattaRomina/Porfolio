@@ -45,10 +45,10 @@
     margin-bottom: var(--mb-0-25);
     white-space: nowrap;
     border-right: 4px solid var(--first-color);
-    width:20ch;
-    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    width:21ch;
+    animation: typing 4s steps(15), blink .5s infinite step-end alternate;
     overflow: hidden;
-   
+    
 }
 
 @keyframes typing {

@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import './About.css'
-import CV from '../../assets/RominaVilattaMontenegro-CV.pdf'
+import CV from '../../assets/RominaVilattaMontenegro-cv.pdf'
 import { ThemeContext } from '../../context';
 
 
